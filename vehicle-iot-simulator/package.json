@@ -1,0 +1,19 @@
+{
+  "name": "vehicle-iot-simulator",
+  "version": "0.0.1",
+  "description": "simula dados de um dispositivo IOT dos veiculos da frota",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.15.30",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "stompit": "^1.0.0"
+  }
+}
