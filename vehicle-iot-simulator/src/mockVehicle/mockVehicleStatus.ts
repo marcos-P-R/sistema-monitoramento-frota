@@ -42,7 +42,7 @@ export const mockVehicles: MockVehicleStatus[] = [
 export function getNextLocation(
   current: MockVehicleLocation,
   destination: MockVehicleLocation,
-  stepMeters: number = 100
+  stepMeters: number = 1000
 ): MockVehicleLocation {
   const toRadians = (degrees: number) => (degrees * Math.PI) / 180;
   const toDegrees = (radians: number) => (radians * 180) / Math.PI;
