@@ -4,6 +4,8 @@
   "description": "simula dados de um dispositivo IOT dos veiculos da frota",
   "main": "index.js",
   "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -11,6 +13,7 @@
   "devDependencies": {
     "@tsconfig/node22": "^22.0.2",
     "@types/node": "^22.15.30",
+    "@types/stompit": "^0.26.6",
     "tsx": "^4.19.4",
     "typescript": "^5.8.3"
   },
