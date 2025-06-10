@@ -1,7 +1,7 @@
 import { getNextLocation, mockVehicles } from "./mockVehicle/mockVehicleStatus";
 import { VehicleStatus } from "./model/VehicleStatus";
 import { StompClientManager } from "./Queue/ActiveMQ.client";
-const Queue = new StompClientManager('vehicle-status-queue');
+const Queue = new StompClientManager('/queue/vehicle-status-queue');
 
 function mockRandonVehicles() {
   const vehiclesLength = mockVehicles.length;
